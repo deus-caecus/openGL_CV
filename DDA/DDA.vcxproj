@@ -136,11 +136,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DDALine.cpp" />
+    <ClCompile Include="sutherlandHodgman.cpp" />
     <ClCompile Include="pixelAttribute.cpp" />
-    <ClCompile Include="scanlineAreaFill.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="pixelTool.cpp" />
+    <ClCompile Include="ScanLineFill.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="function.h" />
     <ClInclude Include="pixelAttribute.h" />
     <ClInclude Include="pixelTool.h" />
   </ItemGroup>

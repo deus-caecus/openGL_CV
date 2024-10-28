@@ -18,6 +18,12 @@ typedef struct point
 	point(int x, int y, COLOR color);
 }Seed, Point;
 
+enum class EdgeType {
+	Left,
+	Right,
+	Bottom,
+	Top
+};
 
 
 

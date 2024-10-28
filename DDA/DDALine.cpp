@@ -1,5 +1,4 @@
 #include"pixelTool.h"
-#include<iostream>
 
 int DDALine(int x0, int y0, int x1, int y1, COLOR color)
 {
@@ -69,7 +68,7 @@ int DDALine(int x0, int y0, int x1, int y1, COLOR color)
 	return 0;
 }
 
-int mainDDA()
+int DDALineMain()
 {
 	
 	int x1, y1,x2,y2;

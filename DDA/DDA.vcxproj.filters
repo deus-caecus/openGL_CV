@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="scanlineAreaFill.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pixelTool.cpp">
@@ -27,12 +27,21 @@
     <ClCompile Include="DDALine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sutherlandHodgman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScanLineFill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pixelAttribute.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="pixelTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
